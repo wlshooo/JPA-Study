@@ -68,6 +68,7 @@ public class InitDb {
             Delivery delivery = new Delivery();
             delivery.setAddress(member.getAddress());
             return delivery;
+
         }
     }
 }
