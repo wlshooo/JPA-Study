@@ -249,4 +249,10 @@ class MemberRepositoryTest {
         entityManager.flush();
     }
 
+    @Test
+    public void callCustom() {
+        List<Member> result = memberRepository.findMemberCustom();
+
+    }
+
 }
